@@ -39,7 +39,7 @@ _Sept. 2017 - present_
 Co-op Work Term 3  
 _May. 2021 - Sept. 2021_
 
-* Upgraded the AccountsPayable Bot which handles invoices. Updated packages and improved performance of thebot by implementing latest Activities and features in UiPath Studio and making other fixes along the way.
+* Upgraded the AccountsPayable Bot which handles invoices. Updated packages and improved performance of the bot by implementing latest Activities and features in UiPath Studio and making other fixes along the way.
 * Updated the bot to make it compatible with the newer version of its Sharepoint site (2019).
 * Resolved BMC Remedy tickets around eforms by modifying and creating eforms according to users' needs.  
 
