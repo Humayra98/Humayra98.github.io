@@ -1,0 +1,14 @@
+
+
+# Site settings
+title: Humayra Anjum Rafi | Resume
+description: Resume
+
+remote_theme: pages-themes/slate@v0.2.0
+plugins:
+- jekyll-remote-theme # add this line to the plugins list if you already have one
+
+repository: Humayra98/Humayra98.github.io
+
+show_downloads: false
+# google_analytics: [Your Google Analytics tracking ID]
