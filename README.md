@@ -1,8 +1,11 @@
 # Project Title
 
 One Paragraph of the project description
+<!-- 
+![](https://media.giphy.com/media/fPSHNXVnPtwbvwVWnE/giphy.gif) -->
 
-![](https://media.giphy.com/media/fPSHNXVnPtwbvwVWnE/giphy.gif)
+
+![](https://camo.githubusercontent.com/4ece594affad742d90f6373bfc24b2dcb439f5f1bd04bdd4d78e464b3930b07d/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f665053484e58566e50747762767756576e452f67697068792e676966)
 
 
 Initially appeared on
