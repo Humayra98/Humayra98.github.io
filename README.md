@@ -1,3 +1,7 @@
+---
+layout: default
+---
+
 # Project Title
 
 One Paragraph of the project description
