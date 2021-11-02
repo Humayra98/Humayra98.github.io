@@ -42,7 +42,7 @@ This document has 2 goals:
 
   7. Click “Add file”.
   8. Upload the Markdown resume index.md.
-  9. To work locally  
+  9. To work locally:  
       i. Go to the directory you want to save the project in.  
       ii. Run the following command from command line.  
 
@@ -52,7 +52,7 @@ This document has 2 goals:
 
   Nowadays, most developers use Distributed Version Control Systems (DVCS) like Git and Mercurial for software development. DVCS support offline work and are great for collaboration. In his book _Modern Technical Writing_, Etter strongly advised to store any documentation for a project in the same repository as the source code so that the documentation and code branches are always in sync. This also encourages developers to contribute to the repository since they don’t have to clone multiple repositories for code and documentation. DVCS’s popularity among developers is the main reason why technical writers use DVCS.
 
-### III. Create a static site
+### III. Create a static site.
 
 1. Choose a theme  
     From the GitHub repository, go to Settings -> Pages -> Choose theme  
@@ -60,19 +60,19 @@ This document has 2 goals:
     OR,  
     Add a configuration file _config.yml with the following line: remote_theme: username/repositoryname where repositoryname is the name of the repository for the chosen theme and username is the name of the owner of that repository.
 
-2. Add front matter `layout: <name of the html file for the theme>` to the Markdown resume
+2. Add front matter `layout: <name of the html file for the theme>` to the Markdown resume.
 
 3. Customize theme  
-    i. Copy the theme layout html from its original repository  
-    ii. add it to your project repository
-    iii. Modify html or add styling as necessary
+    i. Copy the theme layout html from its original repository.  
+    ii. add it to your project repository.
+    iii. Modify html or add styling as necessary.
 
 4. To test site locally,  
-    i. Add the GitHub Pages gem to the Gemfile  
+    i. Add the GitHub Pages gem to the Gemfile.  
 
         gem "github-pages", group: :jekyll_plugins  
 
-    ii. Run `bundle install` to install gem-based themes  
+    ii. Run `bundle install` to install gem-based themes.  
     iii. Run `bundle exec jekyll serve` to launch the site locally.  
 
   According to Etter, static websites are fast, simple, portable and secure. They don’t require any server-side application dependencies or databases. Static site generators like Jekyll make it easier to add complex styling or formatting to the site. Basically, a static site generator takes content written in lightweight markup language, templated HTML and CSS for theme, and then processes everything into a working website. The site can be easily modified by just updating the content and processing everything again.
@@ -80,9 +80,9 @@ This document has 2 goals:
 ### IV. Publish site on GitHub Pages
 
 1. Make sure the remote repository is in sync with the local repository if files were modified locally.
-2. From the GitHub Repository, go to Settings -> Pages
-3. Make sure the root is set to the source branch or publishing source
-4. To see published site, click on the url https://_username_.github.io/
+2. From the GitHub Repository, go to Settings -> Pages.
+3. Make sure the root is set to the source branch or publishing source.
+4. To see published site, click on the url https://_username_.github.io/.
 
     ![Demo](https://github.com/Humayra98/Humayra98.github.io/blob/gh-pages/readme%20assets/demo.gif)
 
@@ -95,7 +95,9 @@ This document has 2 goals:
 
 ## **Authors and Acknowledgments**
 
-Thanks to group-4 members for their invaluable feedback throughout the assignment. Thanks to the [theme template contributors](https://github.com/pages-themes/slate/graphs/contributors) for the theme template. Theme chosen from GitHub repository [pages-themes/slate](https://github.com/pages-themes/slate).
+Thanks to group-4 members for their invaluable feedback throughout the assignment.  
+
+Theme template taken from GitHub repository [pages-themes/slate](https://github.com/pages-themes/slate). Thanks to the [theme template contributors](https://github.com/pages-themes/slate/graphs/contributors) for the theme template.
 
 ## **Frequently Asked Questions**
 
@@ -108,4 +110,4 @@ Thanks to group-4 members for their invaluable feedback throughout the assignmen
     There are 3 common reasons of why the resume might not show up,  
         i. The name of the Markdown file for resume is wrong. The name needs to be index.md for it to show up on the main page.  
         ii. The theme was customized but the theme layout filename was not included in the front matter of the markdown file.  
-        iii. Sometimes, it can take up to 20 minutes for the site to publish after pushing changes to GitHub. If the changes cannot be seen in an hour, see [About Jekyll build errors for GitHub Pages sites](https://docs.github.com/en/articles/about-jekyll-build-errors-for-github-pages-sites)
+        iii. Sometimes, it can take up to 20 minutes for the site to publish after pushing changes to GitHub. If the changes cannot be seen in an hour, see [About Jekyll build errors for GitHub Pages sites](https://docs.github.com/en/articles/about-jekyll-build-errors-for-github-pages-sites).
