@@ -21,7 +21,7 @@ This document has 2 goals:
 
 ## **Instructions**
 
-## I. Create/edit a resume in Markdown  
+### I. Create/edit a resume in Markdown  
 
   Use a Markdown editor like Visual Studio Code to create and edit the resume. Save it as index.md to make this content the home page of the static site.  
 
@@ -29,7 +29,7 @@ This document has 2 goals:
 
   As described in Etter’s book _Modern Technical Writing_, XML-based languages are a bad choice for online documentation. Content created in XML-based languages these languages are difficult to parse and editors are often costly or unavailable for specific systems. Whereas content created in lightweight markup languages like Markdown are easy to parse, easy to style, and there are plenty of free editors. Markdown is the most widely used lightweight markup language and so it is fast-evolving and gives a measure of future-proofing.
 
-## II. Set up GitHub repository
+### II. Set up GitHub repository
 
   1. Click on “+” icon from top navigation bar.
   2. Select “New Repository”.
@@ -52,7 +52,7 @@ This document has 2 goals:
 
   Nowadays, most developers use Distributed Version Control Systems (DVCS) like Git and Mercurial for software development. DVCS support offline work and are great for collaboration. In his book _Modern Technical Writing_, Etter strongly advised to store any documentation for a project in the same repository as the source code so that the documentation and code branches are always in sync. This also encourages developers to contribute to the repository since they don’t have to clone multiple repositories for code and documentation. DVCS’s popularity among developers is the main reason why technical writers use DVCS.
 
-## III. Create a static site
+### III. Create a static site
 
 1. Choose a theme  
     From the GitHub repository, go to Settings -> Pages -> Choose theme  
@@ -77,7 +77,7 @@ This document has 2 goals:
 
   According to Etter, static websites are fast, simple, portable and secure. They don’t require any server-side application dependencies or databases. Static site generators like Jekyll make it easier to add complex styling or formatting to the site. Basically, a static site generator takes content written in lightweight markup language, templated HTML and CSS for theme, and then processes everything into a working website. The site can be easily modified by just updating the content and processing everything again.
 
-## IV. Publish site on GitHub Pages
+### IV. Publish site on GitHub Pages
 
 1. Make sure the remote repository is in sync with the local repository if files were modified locally.
 2. From the GitHub Repository, go to Settings -> Pages
@@ -86,7 +86,7 @@ This document has 2 goals:
 
     ![](https://camo.githubusercontent.com/4ece594affad742d90f6373bfc24b2dcb439f5f1bd04bdd4d78e464b3930b07d/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f665053484e58566e50747762767756576e452f67697068792e676966)
 
-## V. More Resources
+### V. More Resources
 
   1. [Markdown tutorial](https://www.markdowntutorial.com/)  [Example 1](https://www.example.com)
   2. [Etter, Andrew. Modern Technical Writing. Kindle edition, Self-published, 2016](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
