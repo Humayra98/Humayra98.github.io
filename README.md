@@ -25,7 +25,7 @@ This document has 2 goals:
 
   Use a Markdown editor like Visual Studio Code to create and edit the resume. Save it as index.md to make this content the home page of the static site.  
 
-  [add a screenshot of vscode resume md + preview]
+  ![Editing resume with Visual Studio Code](https://github.com/Humayra98/Humayra98.github.io/blob/gh-pages/readme%20assets/resume%20md%20.png)
 
   As described in Etter’s book _Modern Technical Writing_, XML-based languages are a bad choice for online documentation. Content created in XML-based languages these languages are difficult to parse and editors are often costly or unavailable for specific systems. Whereas content created in lightweight markup languages like Markdown are easy to parse, easy to style, and there are plenty of free editors. Markdown is the most widely used lightweight markup language and so it is fast-evolving and gives a measure of future-proofing.
 
@@ -38,7 +38,7 @@ This document has 2 goals:
   5. You may or may not choose to add a README file.
   6. Click create repository.  
 
-      [screenshot of create repo page]
+      ![Create GitHub repository](https://github.com/Humayra98/Humayra98.github.io/blob/gh-pages/readme%20assets/create%20repo.png)
 
   7. Click “Add file”.
   8. Upload the Markdown resume index.md.
@@ -56,7 +56,7 @@ This document has 2 goals:
 
 1. Choose a theme  
     From the GitHub repository, go to Settings -> Pages -> Choose theme  
-        [screenshot theme page]  
+        ![Choose theme from GitHub](https://github.com/Humayra98/Humayra98.github.io/blob/gh-pages/readme%20assets/choose%20theme.png) 
     OR,  
     Add a configuration file _config.yml with the following line: remote_theme: username/repositoryname where repositoryname is the name of the repository for the chosen theme and username is the name of the owner of that repository.
 
@@ -84,7 +84,7 @@ This document has 2 goals:
 3. Make sure the root is set to the source branch or publishing source
 4. To see published site, click on the url https://_username_.github.io/
 
-    ![](https://camo.githubusercontent.com/4ece594affad742d90f6373bfc24b2dcb439f5f1bd04bdd4d78e464b3930b07d/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f665053484e58566e50747762767756576e452f67697068792e676966)
+    ![Demo](https://github.com/Humayra98/Humayra98.github.io/blob/gh-pages/readme%20assets/demo.gif)
 
 ### V. More Resources
 
