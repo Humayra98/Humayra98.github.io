@@ -48,8 +48,6 @@ This document has 2 goals:
 
           git clone https://github.com/username/username.github.io
 
-  [final repo screenshot]  
-
   Nowadays, most developers use Distributed Version Control Systems (DVCS) like Git and Mercurial for software development. DVCS support offline work and are great for collaboration. In his book _Modern Technical Writing_, Etter strongly advised to store any documentation for a project in the same repository as the source code so that the documentation and code branches are always in sync. This also encourages developers to contribute to the repository since they don’t have to clone multiple repositories for code and documentation. DVCS’s popularity among developers is the main reason why technical writers use DVCS.
 
 ### III. Create a static site.
