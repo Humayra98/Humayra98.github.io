@@ -88,7 +88,7 @@ This document has 2 goals:
 
 ### V. More Resources
 
-  1. [Markdown tutorial](https://www.markdowntutorial.com/)  [Example 1](https://www.example.com)
+  1. [Markdown tutorial](https://www.markdowntutorial.com/)
   2. [Etter, Andrew. Modern Technical Writing. Kindle edition, Self-published, 2016](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
   3. [Mike Dane's Jekyll Static Site Generator Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
   4. [Evan Will's GitHub Pages Tutorial](https://evanwill.github.io/go-go-ghpages-b/content/1-intro.html)
