@@ -14,11 +14,11 @@ Winnipeg, MB R3T 4J5
 +12041234567  
 rafiha@myumanitoba.ca  
 
-* * *
+___
 
 ### EDUCATION AND ACHIEVEMENTS
 
-* * *
+___
 
 **BACHELOR OF COMPUTER SCIENCE, HONORS (CO-OP)**  
 University of Manitoba  
@@ -29,11 +29,11 @@ _Sept. 2017 - present_
 * Science Students Association(SSA) Tutoring Scholarship (Winter 2018)
 * International Undergraduate Students Entrance Scholarship (Fall 2017)
 
-* * *
+___
 
 ### WORK EXPERIENCE
 
-* * *
+___
 
 **IT CO-OP SYSTEM DEVELOPER, MANITOBA HYDRO**  
 Co-op Work Term 3  
@@ -58,11 +58,11 @@ _Jan. 2020 - Aug. 2020_
 * Updated logic around several documents as part of a major enhancement due to new laws introduced for California properties.
 * Demonstrated code changes in front of large audience and participated in scrums.
 
-* * *
+___
 
 ### MENTORING EXPERIENCE
 
-* * *
+___
 
 **PRIVATE TUTOR**  
 _Summer 2017, Summer 2018, Summer 2019_  
@@ -78,11 +78,11 @@ _Jan. 2018 - Oct. 2018_
 * Mentored undergraduate students one-on-one on Introductory Computer Science course and Calculus 1.
 * Provided guidance and assistance with course materials as much as possible whenever they needed.
 
-* * *
+___
 
 ### CERTIFICATIONS
 
-* * *
+___
 
 **TECHNICAL**  
 AWS Technical Essentials Certification  
@@ -97,11 +97,11 @@ _May. 2016_
 Diplôme d'étude en langue Française (DELF) - A1  
 _Sept. 2015_
 
-* * *
+___
 
 ### TECHNICAL SKILLS
 
-* * *
+___
 
 **PROGRAMMING LANGUAGES**
 
@@ -115,11 +115,11 @@ _Sept. 2015_
 
 * Vim, Eclipse, Jupyter, SWI-Prolog, Git, Intellij, Bitbucket, Sourcetree, Guidewire, Android Studio, Atlassian Suite,HSQLDB, GitHub, Docker, VS Code, MongoDB, UiPath Studio, Power Apps, Jekyll
 
-* * *
+___
 
 ### ACADEMIC PROJECTS
 
-* * *
+___
 
 **GAMERSNET**  
 Software Engineering 2 - Group Project  
