@@ -25,7 +25,7 @@ This document has 2 goals:
 
   Use a Markdown editor like Visual Studio Code to create and edit the resume. Save it as index.md to make this content the home page of the static site.  
 
-  ![Editing resume with Visual Studio Code](https://github.com/Humayra98/Humayra98.github.io/blob/gh-pages/readme%20assets/resume%20md%20.png)
+  ![Editing resume with Visual Studio Code](https://raw.githubusercontent.com/Humayra98/Humayra98.github.io/gh-pages/readme%20assets/resume%20md%20.png)
 
   As described in Etter’s book _Modern Technical Writing_, XML-based languages are a bad choice for online documentation. Content created in XML-based languages these languages are difficult to parse and editors are often costly or unavailable for specific systems. Whereas content created in lightweight markup languages like Markdown are easy to parse, easy to style, and there are plenty of free editors. Markdown is the most widely used lightweight markup language and so it is fast-evolving and gives a measure of future-proofing.
 
@@ -38,7 +38,7 @@ This document has 2 goals:
   5. You may or may not choose to add a README file.
   6. Click create repository.  
 
-      ![Create GitHub repository](https://github.com/Humayra98/Humayra98.github.io/blob/gh-pages/readme%20assets/create%20repo.png)
+      ![Create GitHub repository](https://raw.githubusercontent.com/Humayra98/Humayra98.github.io/gh-pages/readme%20assets/create%20repo.png)
 
   7. Click “Add file”.
   8. Upload the Markdown resume index.md.
@@ -56,7 +56,7 @@ This document has 2 goals:
 
 1. Choose a theme  
     From the GitHub repository, go to Settings -> Pages -> Choose theme  
-        ![Choose theme from GitHub](https://github.com/Humayra98/Humayra98.github.io/blob/gh-pages/readme%20assets/choose%20theme.png) 
+        ![Choose theme from GitHub](https://raw.githubusercontent.com/Humayra98/Humayra98.github.io/gh-pages/readme%20assets/choose%20theme.png) 
     OR,  
     Add a configuration file _config.yml with the following line: remote_theme: username/repositoryname where repositoryname is the name of the repository for the chosen theme and username is the name of the owner of that repository.
 
@@ -84,7 +84,7 @@ This document has 2 goals:
 3. Make sure the root is set to the source branch or publishing source.
 4. To see published site, click on the url https://_username_.github.io/.
 
-    ![Demo](https://github.com/Humayra98/Humayra98.github.io/blob/gh-pages/readme%20assets/demo.gif)
+    ![Demo](https://raw.githubusercontent.com/Humayra98/Humayra98.github.io/gh-pages/readme%20assets/demo.gif)
 
 ### V. More Resources
 
