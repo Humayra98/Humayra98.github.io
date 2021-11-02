@@ -2,104 +2,110 @@
 layout: default
 ---
 
-# Project Title
+# **Applying Etter’s Modern Technical Writing Principles to host an online resume and README**
 
-One Paragraph of the project description
-<!-- 
-![](https://media.giphy.com/media/fPSHNXVnPtwbvwVWnE/giphy.gif) -->
+## **Purpose**
 
+This document has 2 goals:  
 
-![](https://camo.githubusercontent.com/4ece594affad742d90f6373bfc24b2dcb439f5f1bd04bdd4d78e464b3930b07d/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f665053484e58566e50747762767756576e452f67697068792e676966)
+* Describe the practical steps of hosting and formatting a resume using the software stack: Markdown, a Markdown editor, GitHub Pages and Jekyll.  
+* Relate the practical steps described above to the general principles or concepts of current technical writing, as explained in Andrew Etter’s book _Modern Technical Writing_.  
 
+## **Prerequisites**
 
-Initially appeared on
-[gist](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2). But the page cannot open anymore so that is why I have moved it here.
+* A resume formatted in Markdown.
+* A Markdown editor - Visual Studio Code. Other Markdown editors can also be used.
+* A GitHub account.
+* A distributed version control system - Git. It is recommended to install Git to work on project locally and then sync changes with the remote repository.
+* A static site generator - Jekyll. It is recommended to install Jekyll to work on project locally.
 
-readme template [source](https://github.com/PurpleBooth/a-good-readme-template)
+## **Instructions**
 
-## Getting Started
+## I. Create/edit a resume in Markdown  
 
-These instructions will give you a copy of the project up and running on
-your local machine for development and testing purposes. See deployment
-for notes on deploying the project on a live system.
+  Use a Markdown editor like Visual Studio Code to create and edit the resume. Save it as index.md to make this content the home page of the static site.  
 
-### Prerequisites
+  [add a screenshot of vscode resume md + preview]
 
-Requirements for the software and other tools to build, test and push 
-- [Example 1](https://www.example.com)
-- [Example 2](https://www.example.com)
+  As described in Etter’s book _Modern Technical Writing_, XML-based languages are a bad choice for online documentation. Content created in XML-based languages these languages are difficult to parse and editors are often costly or unavailable for specific systems. Whereas content created in lightweight markup languages like Markdown are easy to parse, easy to style, and there are plenty of free editors. Markdown is the most widely used lightweight markup language and so it is fast-evolving and gives a measure of future-proofing.
 
-### Installing
+## II. Set up GitHub repository
 
-A step by step series of examples that tell you how to get a development
-environment running
+  1. Click on “+” icon from top navigation bar.
+  2. Select “New Repository”.
+  3. Type in _username_.github.io as repository name, where _username_ is the GitHub username.
+  4. Choose repository visibility – public or private.
+  5. You may or may not choose to add a README file.
+  6. Click create repository.  
 
-Say what the step will be
+      [screenshot of create repo page]
 
-    Give the example
+  7. Click “Add file”.
+  8. Upload the Markdown resume index.md.
+  9. To work locally  
+      i. Go to the directory you want to save the project in.  
+      ii. Run the following command from command line.  
 
-And repeat
+          git clone https://github.com/username/username.github.io
 
-    until finished
+  [final repo screenshot]  
 
-End with an example of getting some data out of the system or using it
-for a little demo
+  Nowadays, most developers use Distributed Version Control Systems (DVCS) like Git and Mercurial for software development. DVCS support offline work and are great for collaboration. In his book _Modern Technical Writing_, Etter strongly advised to store any documentation for a project in the same repository as the source code so that the documentation and code branches are always in sync. This also encourages developers to contribute to the repository since they don’t have to clone multiple repositories for code and documentation. DVCS’s popularity among developers is the main reason why technical writers use DVCS.
 
-## Running the tests
+## III. Create a static site
 
-Explain how to run the automated tests for this system
+1. Choose a theme  
+    From the GitHub repository, go to Settings -> Pages -> Choose theme  
+        [screenshot theme page]  
+    OR,  
+    Add a configuration file _config.yml with the following line: remote_theme: username/repositoryname where repositoryname is the name of the repository for the chosen theme and username is the name of the owner of that repository.
 
-### Sample Tests
+2. Add front matter `layout: <name of the html file for the theme>` to the Markdown resume
 
-Explain what these tests test and why
+3. Customize theme  
+    i. Copy the theme layout html from its original repository  
+    ii. add it to your project repository
+    iii. Modify html or add styling as necessary
 
-    Give an example
+4. To test site locally,  
+    i. Add the GitHub Pages gem to the Gemfile  
 
-### Style test
+        gem "github-pages", group: :jekyll_plugins  
 
-Checks if the best practices and the right coding style has been used.
+    ii. Run `bundle install` to install gem-based themes  
+    iii. Run `bundle exec jekyll serve` to launch the site locally.  
 
-    Give an example
+  According to Etter, static websites are fast, simple, portable and secure. They don’t require any server-side application dependencies or databases. Static site generators like Jekyll make it easier to add complex styling or formatting to the site. Basically, a static site generator takes content written in lightweight markup language, templated HTML and CSS for theme, and then processes everything into a working website. The site can be easily modified by just updating the content and processing everything again.
 
-## Deployment
+## IV. Publish site on GitHub Pages
 
-Add additional notes to deploy this on a live system
+1. Make sure the remote repository is in sync with the local repository if files were modified locally.
+2. From the GitHub Repository, go to Settings -> Pages
+3. Make sure the root is set to the source branch or publishing source
+4. To see published site, click on the url https://_username_.github.io/
 
-## Built With
+    ![](https://camo.githubusercontent.com/4ece594affad742d90f6373bfc24b2dcb439f5f1bd04bdd4d78e464b3930b07d/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f665053484e58566e50747762767756576e452f67697068792e676966)
 
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
+## V. More Resources
 
-## Contributing
+  1. [Markdown tutorial](https://www.markdowntutorial.com/)  [Example 1](https://www.example.com)
+  2. [Etter, Andrew. Modern Technical Writing. Kindle edition, Self-published, 2016](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+  3. [Mike Dane's Jekyll Static Site Generator Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
+  4. [Evan Will's GitHub Pages Tutorial](https://evanwill.github.io/go-go-ghpages-b/content/1-intro.html)
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
+## **Authors and Acknowledgments**
 
-## Versioning
+Thanks to group-4 members for their invaluable feedback throughout the assignment. Thanks to the [theme template contributors](https://github.com/pages-themes/slate/graphs/contributors) for the theme template. Theme chosen from GitHub repository [pages-themes/slate](https://github.com/pages-themes/slate).
 
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+## **Frequently Asked Questions**
 
-## Authors
+1. Why is Markdown better than a word processor?
 
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
+    In the book _Modern Technical Writing_, Etter emphasized on keeping constantly changing documentation in version control. Simple word processors don’t allow that flexibility. Moreover, HTML export in word processors is very complicated and unsuitable for creating websites. On the other hand, it is very easy to maintain Markdown files with version control systems. Static site generators make it even easier to modify the content and add complexity to the site.
 
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
+2. Why is my resume not showing up?
 
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
-
-## Acknowledgments
-
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+    There are 3 common reasons of why the resume might not show up,  
+        i. The name of the Markdown file for resume is wrong. The name needs to be index.md for it to show up on the main page.  
+        ii. The theme was customized but the theme layout filename was not included in the front matter of the markdown file.  
+        iii. Sometimes, it can take up to 20 minutes for the site to publish after pushing changes to GitHub. If the changes cannot be seen in an hour, see [About Jekyll build errors for GitHub Pages sites](https://docs.github.com/en/articles/about-jekyll-build-errors-for-github-pages-sites)
