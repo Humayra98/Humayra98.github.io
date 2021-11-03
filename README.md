@@ -49,7 +49,7 @@ The purpose of this document is to describe the practical steps of hosting and f
     From the GitHub repository, go to **Settings** -> **Pages** -> **Choose theme**  
         ![Choose theme from GitHub](https://raw.githubusercontent.com/Humayra98/Humayra98.github.io/gh-pages/readme%20assets/choose%20theme.png) 
     OR,  
-    Add a configuration file **\_config.yml** with the following line: remote_theme: username/repositoryname where repositoryname is the name of the repository for the chosen theme and username is the name of the owner of that repository.
+    Add a configuration file **\_config.yml** with the following line: `remote_theme: username/repositoryname` where _repositoryname_ is the name of the repository for the chosen theme and username is the name of the owner of that repository.
 
 2. Add front matter `layout: <name of the html file for the theme>` to the Markdown resume.
 
