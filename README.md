@@ -88,14 +88,14 @@ The purpose of this document is to describe the practical steps of hosting and f
 
 •	Humayra Anjum Rafi - Author
 
-Thanks to the following group members for their invaluable feedback throughout the assignment:
+Thanks to the following group members for their invaluable feedback on the assignment:
 
-•	Asia Miyai - Editor  
-•	Patrick Yutuc - Editor  
-•	Kamarabbas Saiyed - Editor  
-•	Joe Smith - Editor  
+•	Asia Miyai - _Editor_  
+•	Patrick Yutuc - _Editor_  
+•	Kamarabbas Saiyed - _Editor_  
+•	Joe Smith - _Editor_  
 
-Theme template was taken from GitHub repository [pages-themes/slate](https://github.com/pages-themes/slate). Thanks to the [theme template contributors](https://github.com/pages-themes/slate/graphs/contributors) for the theme template.
+The theme template was taken from GitHub repository [pages-themes/slate](https://github.com/pages-themes/slate). Thanks to the [theme template contributors](https://github.com/pages-themes/slate/graphs/contributors) for the theme template.
 
 ## **Frequently Asked Questions**
 
