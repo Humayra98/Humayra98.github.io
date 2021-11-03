@@ -1,23 +1,16 @@
----
-layout: default
----
-
 # **Applying Etter’s Modern Technical Writing Principles to host an online resume and README**
 
 ## **Purpose**
 
-This document has 2 goals:  
-
-* Describe the practical steps of hosting and formatting a resume using the software stack: Markdown, a Markdown editor, GitHub Pages and Jekyll.  
-* Relate the practical steps described above to the general principles or concepts of current technical writing, as explained in Andrew Etter’s book _Modern Technical Writing_.  
+The purpose of this document is to describe the practical steps of hosting and formatting a resume using the software stack: Markdown, a Markdown editor, GitHub Pages and Jekyll. Each practical step is then related to the general principles or concepts of current technical writing, as explained in Andrew Etter’s book _Modern Technical Writing_.  
 
 ## **Prerequisites**
 
 * A resume formatted in Markdown.
-* A Markdown editor - Visual Studio Code. Other Markdown editors can also be used.
+* A Markdown editor - [Visual Studio Code](https://code.visualstudio.com/download). Other Markdown editors can also be used.
 * A GitHub account.
-* A distributed version control system - Git. It is recommended to install Git to work on project locally and then sync changes with the remote repository.
-* A static site generator - Jekyll. It is recommended to install Jekyll to work on project locally.
+* A distributed version control system - [Git](https://git-scm.com/downloads). It is recommended to install Git to work on project locally and then sync changes with the remote repository.
+* A static site generator - [Jekyll](https://jekyllrb.com/docs/installation/). It is recommended to install Jekyll to work on project locally.
 
 ## **Instructions**
 
@@ -31,17 +24,17 @@ This document has 2 goals:
 
 ### II. Set up GitHub repository
 
-  1. Click on “+” icon from top navigation bar.
-  2. Select “New Repository”.
-  3. Type in _username_.github.io as repository name, where _username_ is the GitHub username.
+  1. Click on **+** icon from top navigation bar.
+  2. Select **New Repository**.
+  3. Type in **_username_.github.io** as repository name, where _username_ is the GitHub username.
   4. Choose repository visibility – public or private.
   5. You may or may not choose to add a README file.
-  6. Click create repository.  
+  6. Click **Create repository**.  
 
       ![Create GitHub repository](https://raw.githubusercontent.com/Humayra98/Humayra98.github.io/gh-pages/readme%20assets/create%20repo.png)
 
-  7. Click “Add file”.
-  8. Upload the Markdown resume index.md.
+  7. Click **Add file**.
+  8. Upload the Markdown resume **index.md**.
   9. To work locally:  
       i. Go to the directory you want to save the project in.  
       ii. Run the following command from command line.  
@@ -52,17 +45,17 @@ This document has 2 goals:
 
 ### III. Create a static site.
 
-1. Choose a theme  
-    From the GitHub repository, go to Settings -> Pages -> Choose theme  
+1. Choose a theme.  
+    From the GitHub repository, go to **Settings** -> **Pages** -> **Choose theme**  
         ![Choose theme from GitHub](https://raw.githubusercontent.com/Humayra98/Humayra98.github.io/gh-pages/readme%20assets/choose%20theme.png) 
     OR,  
-    Add a configuration file _config.yml with the following line: remote_theme: username/repositoryname where repositoryname is the name of the repository for the chosen theme and username is the name of the owner of that repository.
+    Add a configuration file **\_config.yml** with the following line: remote_theme: username/repositoryname where repositoryname is the name of the repository for the chosen theme and username is the name of the owner of that repository.
 
 2. Add front matter `layout: <name of the html file for the theme>` to the Markdown resume.
 
-3. Customize theme  
+3. Customize theme.  
     i. Copy the theme layout html from its original repository.  
-    ii. add it to your project repository.
+    ii. Add it to your project repository.
     iii. Modify html or add styling as necessary.
 
 4. To test site locally,  
@@ -78,24 +71,31 @@ This document has 2 goals:
 ### IV. Publish site on GitHub Pages
 
 1. Make sure the remote repository is in sync with the local repository if files were modified locally.
-2. From the GitHub Repository, go to Settings -> Pages.
+2. From the GitHub Repository, go to **Settings** -> **Pages**.
 3. Make sure the root is set to the source branch or publishing source.
-4. To see published site, click on the url https://_username_.github.io/.
+4. To see published site, click on the url **https://_username_.github.io/**.
 
     ![Demo](https://raw.githubusercontent.com/Humayra98/Humayra98.github.io/gh-pages/readme%20assets/demo.gif)
 
 ### V. More Resources
 
   1. [Markdown tutorial](https://www.markdowntutorial.com/)
-  2. [Etter, Andrew. Modern Technical Writing. Kindle edition, Self-published, 2016](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
+  2. [_Modern Technical Writing_ by Andrew Etter. Kindle edition, Self-published, 2016](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS)
   3. [Mike Dane's Jekyll Static Site Generator Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
   4. [Evan Will's GitHub Pages Tutorial](https://evanwill.github.io/go-go-ghpages-b/content/1-intro.html)
 
 ## **Authors and Acknowledgments**
 
-Thanks to group-4 members for their invaluable feedback throughout the assignment.  
+•	Humayra Anjum Rafi - Author
 
-Theme template taken from GitHub repository [pages-themes/slate](https://github.com/pages-themes/slate). Thanks to the [theme template contributors](https://github.com/pages-themes/slate/graphs/contributors) for the theme template.
+Thanks to the following group members for their invaluable feedback throughout the assignment:
+
+•	Asia Miyai - Editor  
+•	Patrick Yutuc - Editor  
+•	Kamarabbas Saiyed - Editor  
+•	Joe Smith - Editor  
+
+Theme template was taken from GitHub repository [pages-themes/slate](https://github.com/pages-themes/slate). Thanks to the [theme template contributors](https://github.com/pages-themes/slate/graphs/contributors) for the theme template.
 
 ## **Frequently Asked Questions**
 
